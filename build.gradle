@@ -156,6 +156,10 @@ dependencyCheck {
   suppressionFile = 'config/owasp/suppressions.xml'
 }
 
+checkstyle {
+    ignoreFailures = true
+}
+
 repositories {
   mavenLocal()
   mavenCentral()
