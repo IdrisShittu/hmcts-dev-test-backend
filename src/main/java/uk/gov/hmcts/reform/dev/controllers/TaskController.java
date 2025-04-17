@@ -19,6 +19,7 @@ import jakarta.validation.Valid;
 import java.util.List;
 import java.util.Map;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping(value = "/tasks", produces = "application/json")
 @Tag(name = "Task Management", description = "Endpoints for managing tasks")
